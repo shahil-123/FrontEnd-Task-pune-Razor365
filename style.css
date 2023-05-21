@@ -1,0 +1,142 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px !important;
+}
+
+.nav-sec {
+  position: fixed;
+  z-index: 200;
+  width: 100%;
+  margin-top: -10px;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, .2);
+}
+
+.btn-join-now {
+  border-radius: 22px !important;
+  color: white !important;
+  font-size: 13px;
+}
+
+.razor-logo {
+  width: 200px;
+}
+
+.hero-image {
+  background-image: url("images/smart.jpg");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.hero-sec-head {
+  text-align: center;
+  margin: auto;
+  font-size: 4rem;
+  color: white;
+  z-index: 4;
+  font-weight: 700;
+  line-height: 4rem;
+  letter-spacing: 3px;
+
+}
+
+
+.sec-icon {
+  text-decoration: none !important;
+
+}
+
+.card {
+  border: none;
+}
+
+.hero-btn {
+  padding: 12px 20px;
+  font-size: 18px;
+}
+
+.phone-response {
+  width: 100% !important;
+
+}
+
+.iti {
+  width: 100% !important;
+}
+
+.small-char {
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.form-sec {
+  background-color: #1a1e22;
+}
+
+.form-field {
+  background: transparent !important;
+  color: white !important;
+
+}
+
+.footer-cont {
+  background: #f5f5f5;
+}
+
+.custom-icon {
+  font-size: 42px;
+  color: #626C78;
+  margin: 10px;
+  /* padding: 20px; */
+}
+
+.custom-icon:hover {
+  color: rgba(243, 43, 186, 0.992);
+}
+
+.footer-links {
+  list-style: none;
+  text-decoration: none !important;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0px;
+}
+
+.footer-lists {
+  text-decoration: none;
+  color: gray;
+}
+
+.footer-lists:hover {
+  color: rgba(243, 43, 186, 0.992);
+  text-decoration: none;
+}
+
+.text-current {
+  text-decoration: none !important;
+  color: gray;
+}
+
+.text-current:hover {
+  color: rgba(243, 43, 186, 0.992);
+}
+
+@media (max-width:768px) {
+  .custom-icon {
+    font-size: 28px;
+  }
+
+  .hero-sec-head {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+}
