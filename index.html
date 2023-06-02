@@ -16,6 +16,12 @@
     <link rel="stylesheet" href="build/css/intlTelInput.css">
     <link rel="stylesheet" href="build/css/demo.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@600;900&display=swap"
+        rel="stylesheet">
+
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.min.js"></script>
     <script src="build/js/intlTelInput.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -24,10 +30,11 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-sec">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white nav-sec">
         <a class="navbar-brand" href="#">
             <img class="razor-logo" src="images/Razor365-Logo.png" alt="Razor Logo">
         </a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,8 +51,22 @@
                     <a class="nav-link" href="#">Services</a>
                 </li>
                 <li class="nav-item px-2 py-2">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item px-2 py-2">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
+                <div class="search-sec d-flex  text-center">
+                    <li class="design-link d-flex">
+                        <i class="fa fa-empire py-1" aria-hidden="true"></i> <a href=""
+                            class="px-2 design-sec">Designs</a>
+                        <span>|</span>
+                    </li>
+                    <input class="form-control mr-sm-2 search-box" type="search" placeholder="Search..."
+                        aria-label="Search">
+                    <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                    <i class="fa fa-search mt-2" aria-hidden="true"></i>
+                </div>
                 <li class="nav-item text-center">
                     <a href="" class="nav-link"> <button class="btn btn-info btn-join-now">Join now</button></a>
                 </li>
@@ -102,9 +123,162 @@
     </section>
     <section>
         <div class="container">
+            <h2 class="join-cont py-5 text-center">What creators have to say</h2>
+            <div class="card-group">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="img-fluid card-img" src="images/fe2.jpg" alt="">
+                        <!-- <h4 class="card-title">Card title</h4> -->
+                        <h6 class="aford-color my-2"> &nbsp;<strong>Damien Nicolus  : RUSSIA</strong></h6>
+                        <p class="card-text my-2"> <i>"I am extremely satisfied with the work done by your team. The
+                                attention to detail and the quality of the final product exceeded my expectations. Thank
+                                you!"</i></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img class="img-fluid card-img" src="images/fe1.jpg" alt="">
+                        <!-- <h4 class="card-title">Card title</h4> -->
+                        <h6 class="aford-color my-2"> &nbsp;<strong>Richard zenith : USA</strong></h6>
+                        <p class="card-text my-2"><i>"The level of professionalism and expertise demonstrated throughout
+                                the project was outstanding. I appreciate the prompt communication and the timely
+                                delivery of the work."</i></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img class="img-fluid card-img" src="images/fe3.jpg" alt="">
+                        <!-- <h4 class="card-title">Card title</h4> -->
+                        <h6 class="aford-color my-2"> &nbsp;<strong>Ulvorin saikh : DUBAI</strong></h6>
+                        <p class="card-text my-2"><i>"Working with your company has been a pleasure. The team was
+                                attentive, receptive to feedback, and delivered exactly what I envisioned. I am thrilled
+                                with the results and look forward to future collaborations."</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2 class="join-cont py-5 text-center">Why Choose bussiness with growmass</h2>
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="d-flex">
+                        <div class="circle"><i class="fa fa-line-chart" aria-hidden="true"></i></div>
+                        <div>
 
-            <div class="col-12 text-center mt-5 mb-5">
-                <h3 class="common-header">Broker Essentials</h3>
+                            <h6 class="aford-color my-3 mx-5"> &nbsp;<strong>Unlimited Designs Template</strong></h6>
+                            <h2 class="my-4">All Template You Need</h2>
+                            <p class="budget-para">Traditional websites to Grow your own website Growmass gives you
+                                unlimited design to create your own website.</p>
+
+                        
+                        </div>
+                    </div>
+                    <div class="d-flex my-4">
+                        <div class="square-blue">
+                            <i class="fa fa-rss icon-set" aria-hidden="true"></i>
+                        </div>
+                        &nbsp;
+                        <h5 class="my-1 mx-2"> Static and Dynamic Pages</h5>
+                    </div>
+                    <div class="d-flex my-4">
+                        <div class="square-blue">
+                            <i class="fa fa-mobile icon-set" aria-hidden="true"></i>
+                        </div>
+                        &nbsp;
+                        <h5 class="my-1 mx-2">Resposive for Mobile and Web</h5>
+                    </div>   
+                     <div class="d-flex my-4">
+                        <div class="square-blue">
+                            <i class="fa fa-map icon-set" aria-hidden="true"></i>
+                        </div>
+                        &nbsp;
+                        <h5 class="my-1 mx-2">Digital Marketing Free Services</h5>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-12 my-4">
+                    <img class="img-fluid card-img" src="images/client2.webp" alt="">
+
+                    <div class="d-flex my-3">
+                        <div class="col-md-6 col-sm-12 m-0 p-0">
+                            <img class="img-fluid pr-2 card-img" src="images/client222.webp" alt="">
+                        </div>
+                        &nbsp; &nbsp;
+                        <div class="col-md-6 col-sm-12 m-0  p-0">
+                            <img class="img-fluid pl-2 card-img" src="images/client22.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+   
+
+    <section class="bg-dark py-5">
+        <div class="container">
+            <div class="col-12 text-center">
+                <h2 class="join-cont py-5 text-center text-white">Customers Essential about growmass</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5 col-sm-12 my-4">
+                    <img class="img-fluid card-img" src="images/grow-bussiness.png" alt="">
+
+                    <!-- <div class="d-flex my-3">
+                        <div class="col-md-6 col-sm-12 m-0 p-0">
+                            <img class="img-fluid pr-2 card-img" src="images/client222.webp" alt="">
+                        </div>
+                        &nbsp; &nbsp;
+                        <div class="col-md-6 col-sm-12 m-0  p-0">
+                            <img class="img-fluid pl-2 card-img" src="images/client22.webp" alt="">
+                        </div>
+                    </div>-->
+                </div> 
+                <div class="col-1"></div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="d-flex">
+                        <div class="circle circle-pink"><i class="fa fa-line-chart" aria-hidden="true"></i></div>
+                        <div>
+
+                            <h6 class="aford-color my-3 mx-5 text-white"> &nbsp;<strong>Implement lead generation</strong></h6>
+                            <h2 class="my-4 text-white">Regularly update and maintainance</h2>
+                            <p class="budget-para text-white">Building a successful online presence takes time and effort. 
+                                It's important to regularly update and maintain your website.</p>
+
+                        
+                        </div>
+                    </div>
+                    <div class="d-flex my-4">
+                        <div class="square-pink">
+                            <i class="fa fa-rss icon-set" aria-hidden="true"></i>
+                        </div>
+                        &nbsp;
+                        <h5 class="my-1 mx-2 text-white"> Free Software Delevery</h5>
+                    </div>
+                    <div class="d-flex my-4">
+                        <div class="square-pink">
+                            <i class="fa fa-mobile icon-set" aria-hidden="true"></i>
+                        </div>
+                        &nbsp;
+                        <h5 class="my-1 mx-2 text-white">Less Money</h5>
+                    </div>   
+                     <div class="d-flex my-4">
+                        <div class="square-pink">
+                            <i class="fa fa-map icon-set" aria-hidden="true"></i>
+                        </div>
+                        &nbsp;
+                        <h5 class="my-1 mx-2 text-white">Less Maintanance</h5>
+                    </div>
+                </div>
+            </div></div>
+    </section>
+    <section class="">
+        <div class="container">
+
+            <div class="col-12 text-center">
+                <h2 class="join-cont py-5 text-center">Customers Essential about growmass</h2>
             </div>
 
             <div class="row m-0">
@@ -141,7 +315,7 @@
                                 alt="Licensing Agreement">
                             <p class="text-center"><b>Razor365 Institutional</b></p>
                             <div class="moreless-desp">
-                                <p class="text-center text-dark">Broker Terminal Licensing Agreement </p>
+                                <p class="text-center text-dark"> Terminal Licensing Agreement </p>
                             </div>
                         </div>
                     </a>
@@ -162,23 +336,40 @@
 
             </div>
     </section>
+
     <section>
-        <div class="container">
-            <div class="row m-0">
-                <div class="col-md-6 col-sm-12">
-                    <img src="images/Existing-Contracts.png" class="img-fluid" alt="Existing Contracts Image">
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <h2 class="mt-5">Razor365 Advantage</h2>
-                    <p>The advantage of Razor365 for Procurement or Purchase Contracts is that it reduces risks in the
-                        supply chain, leads to efficient, quick third-party onboarding, cost control, and aids in
-                        internal and external collaboration for a smoother negotiation. Razor365 also integrates
-                        downstream processes to help companies track contractual performance</p>
-
-
+        <div class="container-wrapper sec-plans pb-4">
+            <div class="container">
+                <h2 class="join-cont py-5">Join <span class="text-blue">100+</span> creators & businesses worldwide
+                    who trust Growmass to bring their own websites.</h2>
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="card plan-card mb-5">
+                            <div class="card-body text-center ">
+                                <h6 class="aford-color"><strong> AFFORDABLE PLANS FOR YOU</strong></h6>
+                                <h2 class="mt-3 budget">Build in your budget</h2>
+                                <h6 class="mt-4 budget-para">Choose a Tamplate that gives you everything you need to
+                                    focus on creating your own website</h6>
+                                <button class="btn btn-warning text-center btn-large mt-4">See Plans</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-md-6">
+                        <div class="card plan-card mb-5">
+                            <div class="card-body text-center">
+                                <h6 class="aford-color"><strong>ULTIMATE DESIGNS TO GROW YOUR BUSSINESS </strong> </h6>
+                                <h2 class="mt-3 budget">Options for grow your bussiness </h2>
+                                <h6 class="mt-4 budget-para">Our content is covered by our royalty with coverage options
+                                    for big companies and large productions.</h6>
+                                <button class="btn btn-info text-center btn-large mt-4">Get a Quote</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
     </section>
     <section>
         <div class="container-wrapper form-sec">
@@ -224,11 +415,13 @@
                             <input type="submit" value="Submit" name="submit" id="btn_contact"
                                 class="btn btn-info p-0 my-5 text-center">
                         </form>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
 
 
 
@@ -354,11 +547,12 @@
     <script>
         $(document).ready(function () {
             $('#myform').submit(function (event) {
-                event.preventDefault(); 
+                event.preventDefault();
                 var name = $('#name_contact').val();
                 var phone = $('#phone').val();
                 var email = $('#email_contact').val();
-                var subject=$('#subject_contact').val();
+                var subject = $('#subject_contact').val();
+
                 if (name === '') {
                     Swal.fire(
                         'blank input ',
@@ -397,6 +591,31 @@
     </script>
 
 
+    <script>
+
+        // let arr=[1,2,3,4,5]
+        // let obj={...arr}
+        // console.log(obj)
+
+        const promise = new Promise((res) => res(2));
+        promise
+            .then((v) => {
+                console.log(v)
+                return v * 2
+            })
+            .then((v) => {
+                console.log(v)
+                return v * 2
+            })
+            .finally((v) => {
+                console.log(v)
+                return 0;
+            })
+            .then((v) => {
+                console.log(v)
+            })
+
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -409,9 +628,27 @@
         var input1 = document.querySelector("#phone");
         window.intlTelInput(input1, {
             utilsScript: "build/js/utils.js",
-        }); 
+        });
 
     </script>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+
 </body>
 
 </html>

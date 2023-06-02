@@ -4,4 +4,6 @@ https://docs.google.com/spreadsheets/d/1fsSCPRRHA2YMcFrZOhq53ThZbtVZSeWzMVVIWg-T
 
 Task 2
 Plz run index.html file on your local system.
+you can also dawnload all files from git on my repo.
+https://github.com/shahil-123/FrontEnd-Task-pune-Razor365.git
 
