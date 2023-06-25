@@ -248,6 +248,66 @@ font-weight: 700;
   color: rgb(50, 62, 238);
 }
 
+
+   /***************** About Page Start here  ************************/
+.top-dark{
+  height: 75vh;
+  width: 100%;
+  background-color:#1F2830;
+  transform-origin: top left;
+  transform: skewY(-5deg);
+
+}
+.top-sec-containt{
+  z-index: 22;
+  margin-top: -18rem;
+}
+.about-hero-img{
+  border-radius: 30px;
+  height: 75%;
+  text-align: center;
+}
+.line-blue{
+  height: 3px;
+  width: 6rem;
+  background-color: #00d4ff;
+}
+.image-border-radius{
+  border-radius: 20px;
+}
+.background-gray{
+  background-color: #3790e9;
+  height: 330px;
+}
+.gap-content{
+  margin-top: 150px !important;
+}
+.sec-gap{
+  margin-top: 50px;
+  margin-bottom: 50px !important;
+}
+.medium-content{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.small-circle{
+  /* height: 8rem;
+  width: 8rem; */
+  border-radius: 50%;
+  outline: none;
+  text-align: center;
+  margin: auto;
+
+}
+.img-circle{
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+}
+.gap-content-80{
+  padding-top: 80px;
+}
 @media  (max-width:1050px){
   .search-sec{
       width: auto; 
@@ -275,4 +335,22 @@ font-weight: 700;
   .join-cont{
     font-size: 30px;
   }
+  .top-sec-containt{
+z-index: 22;
+    margin-top: -22rem;
+  }
+  .img-circle{
+    height: 15rem;
+  width: 15rem;
+  }
+  .gap-content{
+    margin-top: 0px !important;
+  }
+  .gap-content-mob{
+    margin-top: 150px;
+  }
+  .gap-content-80{
+    padding-top: 0px;
+  }
+
 }
