@@ -290,6 +290,7 @@ font-weight: 700;
   font-size: 18px;
   font-weight: 600;
   line-height: 28px;
+  letter-spacing: 2px;
 }
 .small-circle{
   /* height: 8rem;
@@ -307,6 +308,11 @@ font-weight: 700;
 }
 .gap-content-80{
   padding-top: 80px;
+}
+
+/****************************** Contact Page ****************************************************/
+.card-services{
+  border: 1px solid gray;
 }
 @media  (max-width:1050px){
   .search-sec{
