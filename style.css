@@ -314,6 +314,28 @@ font-weight: 700;
 .card-services{
   border: 1px solid gray;
 }
+.card-services:hover{
+  /* border: 1px solid gray; */
+  background-color: #1d2227 !important;
+  transform: translateY(-15px);
+  transition: transform 0.3s;
+}
+.fa-building{
+  color: rgb(240, 32, 195);
+  font-size: 38px;
+  padding-bottom: 15px;
+}
+.fa-bar-chart{
+  color: rgb(240, 32, 195);
+  font-size: 38px;
+  padding-bottom: 15px;
+}
+.fa-line-chart{
+  color: rgb(240, 32, 195);
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
 @media  (max-width:1050px){
   .search-sec{
       width: auto; 
